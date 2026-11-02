@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body { background: #020617; }
+button:disabled { opacity: .5; cursor: wait; }
+button:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible {
+  outline: 2px solid #22d3ee;
+  outline-offset: 3px;
+}
+input, select, textarea { min-width: 0; }
+h3, p { overflow-wrap: anywhere; }
+.pulse-dot { display: inline-block; width: 8px; height: 8px; border-radius: 9999px; }
+.scroll-thin::-webkit-scrollbar { width: 6px; }
+.scroll-thin::-webkit-scrollbar-thumb { background: #334155; border-radius: 9999px; }

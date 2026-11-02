@@ -1,0 +1,23 @@
+node_modules/
+release/
+output/
+.playwright-cli/
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+task_plan.md
+findings.md
+progress.md
+
+# Original personal branding collection; not part of Naming Lab.
+/Naming/
+/icons/
+/web/
+/*.png
+/*.ico
+/tokens.json
